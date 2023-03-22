@@ -230,6 +230,10 @@ local config = {
                         --     require("lsp_signature").setup()
                         --   end,
                         -- },
+                        { 'Mofiqul/dracula.nvim' },
+                        { 'navarasu/onedark.nvim' },
+                        { 'folke/tokyonight.nvim' },
+                        { 'tanvirtin/monokai.nvim' },
                         ['MunifTanjim/prettier.nvim'] = {
                                 config = function()
                                         require('prettier').setup({
